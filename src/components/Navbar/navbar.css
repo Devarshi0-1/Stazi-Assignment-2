@@ -1,0 +1,37 @@
+.navbar {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 30px;
+	padding: 10px 0;
+}
+
+.navbar .nav-left .left-btns {
+	display: flex;
+	gap: 20px;
+}
+
+.navbar .nav-left .left-btns button {
+	border: none;
+	color: rgb(98, 98, 98);
+}
+
+.navbar .nav-right .right-btns button {
+	border: 2px solid #4d44ff;
+	color: #4d44ff;
+}
+
+.navbar button.btn {
+	font-weight: 600;
+	padding: 10px 20px;
+	font-size: 1.1rem;
+	border-radius: 30px;
+	background-color: #ebecfb;
+}
+
+.navbar button.btn.activePage {
+	background-color: #4d44ff;
+    color: white;
+}

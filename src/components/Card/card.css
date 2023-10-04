@@ -1,0 +1,110 @@
+.card {
+	border-radius: 10px;
+	padding: 10px;
+    transition: box-shadow ease-in 200ms;
+	box-shadow: 0 0 20px rgb(191, 191, 191);
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgb(131, 131, 131);
+}
+
+.card .card-top {
+	position: relative;
+}
+
+.card .card-top .top-section {
+	padding: 10px;
+	width: 100%;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card .card-top .top-section > button:first-child {
+	color: #4d44ff;
+	font-weight: 600;
+	font-size: 1.1rem;
+	padding: 5px 10px;
+	border: 0;
+	outline: none;
+	background-color: white;
+	border-radius: 50px;
+}
+
+.card .card-top .top-section > button:nth-child(2) {
+	height: 40px;
+	aspect-ratio: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #4d44ff;
+	font-size: 1.1rem;
+	border: 0;
+	outline: none;
+	background-color: white;
+	border-radius: 50%;
+}
+
+.card .top-img img {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.card .card-mid .mid-address {
+	display: flex;
+    align-items: center;
+	margin: 10px 0;
+	padding: 0 10px;
+}
+
+.card .card-mid .mid-address svg{
+    color: #a29270;
+}
+
+.card .card-mid .mid-info h3 {
+	padding: 0 10px;
+	font-weight: 600;
+}
+
+.card .card-mid .mid-info .info-stats {
+    font-size: 1.1rem;
+	margin: 10px 0;
+	padding: 0 20px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.card .card-division{
+    height: 1px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.202);
+    margin: 15px auto;
+}
+
+.card .card-low {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card .card-low .low-left {
+	font-size: 1.4rem;
+	font-weight: 600;
+	color: #4d44ff;
+}
+
+.card .card-low .low-left span {
+	color: black;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+.card .card-low .low-right button {
+	font-weight: 600;
+	padding: 5px 10px;
+	font-size: 1rem;
+	border-radius: 20px;
+	border: 2px solid #4d44ff;
+	color: #4d44ff;
+}
